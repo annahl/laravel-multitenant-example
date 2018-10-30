@@ -1,5 +1,6 @@
 # Example on Multi Tenant Database using [orchestral/tenanti](https://github.com/orchestral/tenanti)
 
+Inspired by orchestral
 A simple Laravel 5.4 project with multi tenant capabilites. In this project we will create users, where each users will have its own database. The tenant's database contains tasks and logs table.
 
 ## Step 1: Installation
@@ -255,6 +256,7 @@ class TaskController extends Controller
 ![image1](postman3.png)
 ![image1](postman4.png)
 
+
 ### Add Middleware
 
 To make it in middleware, just create new Middleware name example: `CompanyUser`
@@ -285,4 +287,5 @@ class CompanyUser
 - [https://github.com/crynobone/todoist/compare/single-database...multi-database](https://github.com/crynobone/todoist/compare/single-database...multi-database)
 
 ## License
+
 Licensed under the [MIT license](http://opensource.org/licenses/MIT)
